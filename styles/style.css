@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: black;
+}
+
+header {
+    
+}
+
+
+.main-nav {
+    float: right; list-style: none; margin: 10px 25px; top: 0; left: 0; z-index: 100;
+}
+
+.main-nav li {
+    display: inline-block
+}
+
+.main-nav li a {
+    color: white; padding: 5px 20px; font-family: "Roboto", "Roboto"; font-size: 20px;
+}
+
+.main-nav li.active a {
+    border: 3px solid red;
+}
+
+.main-nav li a:hover {
+    border: 3px solid red;
+}
+
+.logo img {
+    width: 100%; max-width: 125px; height: auto, float: left; background: url(images/download.png) no-repeat center; display: block
+}
+
+@media only screen and (max-width: 640px){
+    main-nav{
+        position: absolute;
+    }
+}
+
+/* the css code for my navigation bar i used from a youte video this is the use video that inspired my webpages navigation bar, https://www.youtube.com/watch?v=a2UnYs9AA_M&t=19s  */
+
+body {
+    font-family: "Roboto";
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+p {
+    color: white;
+    padding: 15px;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 345px;
+    font-family: "Roboto";
+    font-size: 45px;
+}
+
+p1 {
+    color: white;
+    padding: 15px;
+    font-family: "Roboto";
+    float: left;
+    font-size: 20px;
+}
+
+//----About----//
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+.img img {
+    width: 250px;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+/* footer */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: black;
+    position: relative;
+    padding-top: 355px;
+}
+
+* {
+    max-height: 100%;
+}
+
+.main {
+    overflow: auto;
+}
+
+.footer img {
+    width: 40px;
+    text-align: center;
+    height: auto;
+}
+
+//-----SocialMediaLinks------//
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.wrapper {
+    color: black;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.links img {
+    width: 100%;
+    max-width: 70px;
+    height: auto;
+}
+
+
+
+
+//------ContactMe-----//
+
+
+.contact-header{
+    margin-top: 125px;
+    color: white;
+}
+
+form{
+    margin-top: 50px; transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 100%; max-width: 600px; margin: 0px 270px; background: transparent; border: none; 
+    border-bottom: 2px solid #FF0000; 
+    color: white; 
+    margin-bottom: 15px; font-size: 15px;
+    
+}
+
+#map{
+    height: 100%;
+    width: 100%;
+    margin-top: 200px;
+    margin: 0px 270px;
+}
+//-------CurriculumVitae------//
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    margin-top: 45px;
+}
+
+.flex-container > div2 {
+    background-color: black;
+    width: 250px;
+    margin: 5px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 15px;
+    color: white;
+    font-family: "Roboto"
+}
+
+.flex-container > div1 {
+    background-color: black;
+    width: 250px;
+    margin: 5px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 15px;
+    color: white;
+    font-family: "Roboto"
+}
+
+.flex-container > div3 {
+    background-color: black;
+    width: 600px;
+    margin: 5px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 15px;
+    color: white;
+    font-family: "Roboto"
+}
+
+/* my css code for my flexbox was taken from WS3 School but have added and change things to make it my own, https://www.w3schools.com/css/css3_flexbox.asp*/
+
+//-------ModelsOfGoodPractice------//
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.imgcontent img {
+
+    width: 100%;
+    max-width: 550px;
+    margin: 0px 3px;
+    margin-top: 45px;
+}
+
+.modelcontent {
+
+    padding: 105px;
+    text-align: left;
+}
+
+@media (min-width 600px) {
+    font-size: 15px;
+}
